@@ -30,9 +30,9 @@ public class Main {
             System.out.println("Если возраст человека равен "+agePeople+ " то ему пора спать");
         }else if(agePeople>=2&&agePeople<=6){
             System.out.println("Если возраст человека равен "+agePeople+" то ему нужно ходить в детский сад");
-        }else if(agePeople>=7&&agePeople<=18){
+        }else if(agePeople>=7&&agePeople<=17){
             System.out.println("Если возраст человека равен "+agePeople+" то ему нужно ходить в школу");
-        }else if(agePeople>=19&&agePeople<=24){
+        }else if(agePeople>=18&&agePeople<=24){
             System.out.println("Если возраст человека равен "+agePeople+ " то ему нужно ходить в университет");
         }else if(agePeople>=25&&agePeople<=60){
             System.out.println("Если возраст человека равен "+agePeople+ " то ему нужно ходить на работу");
@@ -43,11 +43,11 @@ public class Main {
         //task5
         int kidAge = 9;
         if(kidAge<5){
-            System.out.println("Если возраст ребенка равен "+kidAge+ " то ему нельзя кататся на атракционе");
+            System.out.println("Если возраст ребенка равен "+kidAge+ " то ему нельзя кататься на атракционе");
         }else if(kidAge>=5&&kidAge<14){
-            System.out.println("Если возраст ребенка равен "+kidAge+ " то ему можно кататся в сопровождении");
+            System.out.println("Если возраст ребенка равен "+kidAge+ " то ему можно кататься в сопровождении");
         }else if (kidAge>14){
-            System.out.println("Если возраст ребенка равен"+kidAge+ " то ему можно кататся без сопровождения");
+            System.out.println("Если возраст ребенка равен"+kidAge+ " то ему можно кататься без сопровождения");
         }
 
         //task6
